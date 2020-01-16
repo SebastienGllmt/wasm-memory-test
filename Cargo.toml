@@ -1,0 +1,11 @@
+[package]
+name = "wasm-repro"
+version = "1.0.0"
+readme = "README.md"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+wasm-bindgen =  { version = "0.2.58" }
