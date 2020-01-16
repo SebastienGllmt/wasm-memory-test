@@ -9,3 +9,5 @@ cargo  +${RUST_TOOLCHAIN} build --target wasm32-unknown-unknown --release --verb
 
 # build the wasm
 wasm-pack build --target nodejs
+
+npm install
