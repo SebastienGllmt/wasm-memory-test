@@ -1,11 +1,5 @@
 # Installation
 
-```
-# install rustup
-curl https://sh.rustup.rs -sSf | sh
-# use nightly version
-rustup install nightly-2018-06-05
-rustup target add wasm32-unknown-unknown --toolchain nightly
-```
-
-then run the `./build` script
+1) run the `./build` script
+2) Open `http://localhost:8080/`
+3) Open browser console to see error after ~2^16 iterations
